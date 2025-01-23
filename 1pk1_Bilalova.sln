@@ -3,8 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lesson_02", "lesson_02", "{39916CA5-5156-4CF4-B047-7FFE4E9A8537}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task_02_02", "task_02_02\task_02_02.csproj", "{685F1001-1234-474B-A76D-AB8C7571C8BF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{685F1001-1234-474B-A76D-AB8C7571C8BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{685F1001-1234-474B-A76D-AB8C7571C8BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{685F1001-1234-474B-A76D-AB8C7571C8BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{685F1001-1234-474B-A76D-AB8C7571C8BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{685F1001-1234-474B-A76D-AB8C7571C8BF} = {39916CA5-5156-4CF4-B047-7FFE4E9A8537}
 	EndGlobalSection
 EndGlobal
