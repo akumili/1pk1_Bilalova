@@ -14,7 +14,7 @@
             double part2 = Math.Abs(a - b) * (Math.Pow(Math.Sin(C), 2) + Math.Tan(C));
             double result = part1 / part2;
             Console.WriteLine(result);
-            
+
         }
     }
 }
