@@ -1,4 +1,6 @@
-﻿namespace task_03_06
+﻿using System;
+
+namespace task_03_06
 {
     internal class Program
     {
@@ -9,7 +11,8 @@
             double X;
             Console.WriteLine("\n            значения функции");
             Console.WriteLine("----------------------------------------------");
-
+            Console.WriteLine(" Время (с) | Скорость (м/с) ");
+            Console.WriteLine("---------------------------------------");
 
 
             for (X = -4; X < 4; X += 0.5) ;
