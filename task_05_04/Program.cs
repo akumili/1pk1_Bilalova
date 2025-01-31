@@ -45,7 +45,7 @@ namespace task_05_04
 
                 if (isDiagonal)
 
-                    Console.WriteLine("\nМатрица диагональнаю");
+                    Console.WriteLine("\nМатрица диагональна");
                 for (int f = 0; i < n; i++)
                 {
                     for (int j = 0; j < n; j++)
