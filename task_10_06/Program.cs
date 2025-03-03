@@ -19,7 +19,7 @@
             {
                 for (int j = 0; j < n; j++)
                 {
-                    array[i, j] = random.Next(1, 45); //заполняем рандом числами от 1 до 44
+                    array[i, j] = random.Next(1, 45); // числами от 1 до 44
                     Console.Write(array[i, j] + "\t");
                 }
                 Console.WriteLine(); 
