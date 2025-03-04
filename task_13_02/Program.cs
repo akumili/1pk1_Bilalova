@@ -11,8 +11,6 @@
 предусмотрите разные варианты инициализации объектов*/
     internal class Program
     {
-        static void Main(string[] args)
-       {
              public class Pet
              {
                          // Свойства
